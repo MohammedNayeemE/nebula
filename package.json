@@ -6,14 +6,15 @@
   "type": "module",
   "scripts": {
     "start" : "node src/index.js",
-    "build" : ""
+    "build": "mkdir dist && xcopy /s /e src dist"
   },
   "bin" :{
-    "create-bt" :"./src/index.js"
+    "create-bt" :"./dist/index.js"
   },
   "keywords": [
     "backend-template" , "javascript" , "typescript"
   ],
+  "repository":"MohammedNayeemE/nebula",
   "author": "Nayeem",
   "license": "MIT",
   "devDependencies": {
