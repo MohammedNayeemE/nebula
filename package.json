@@ -1,5 +1,5 @@
 {
-  "name": "nebula",
+  "name": "mdn-init",
   "version": "0.0.1",
   "description": "backend template using node,express with javascript && typescript",
   "main": "index.js",
@@ -9,7 +9,7 @@
     "build": "mkdir dist && xcopy /s /e src dist"
   },
   "bin" :{
-    "create-bt" :"./dist/index.js"
+    "mdn-init" :"./dist/index.js"
   },
   "keywords": [
     "backend-template" , "javascript" , "typescript"
