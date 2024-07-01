@@ -5,16 +5,18 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start" : "node src/index.js",
+    "start": "node src/index.js",
     "build": "mkdir dist && xcopy /s /e src dist"
   },
-  "bin" :{
-    "mdn-init" :"./dist/index.js"
+  "bin": {
+    "nebula-init": "./src/index.js"
   },
   "keywords": [
-    "backend-template" , "javascript" , "typescript"
+    "backend-template",
+    "javascript",
+    "typescript"
   ],
-  "repository":"MohammedNayeemE/nebula",
+  "repository": "MohammedNayeemE/nebula",
   "author": "Nayeem",
   "license": "MIT",
   "devDependencies": {

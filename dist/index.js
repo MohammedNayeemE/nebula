@@ -81,7 +81,12 @@ inquirer.prompt(QUESTIONS).then(answers => {
     //console.log(actuall_template_path);
     console.log(chalk.cyanBright(`in this project you will use :)-> ${language}`));
     console.log(chalk.cyanBright(`in this project you will use :)-> ${db}`));
-    console.log(chalk.cyanBright(`in this project you will use :)-> ${p}`));
+    if(p){
+    console.log(chalk.cyanBright(`in this project you will use :)-> prisma`));
+    }
+    else{
+    console.log(chalk.cyanBright(`in this project you will not use :)-> prisma `));
+    }
     console.log(chalk.cyanBright(`in this project you will use :)-> ${project_name}`));
 
     createDirectory(target_path);
