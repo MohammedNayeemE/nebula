@@ -1,6 +1,6 @@
 {
   "name": "mdn-init",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "backend template using node,express with javascript && typescript",
   "main": "index.js",
   "type": "module",
