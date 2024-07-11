@@ -9,7 +9,7 @@
     "build": "mkdir dist && xcopy /s /e src dist"
   },
   "bin": {
-    "nebula-init": "./src/index.js"
+    "mdn-init": "./src/index.js"
   },
   "keywords": [
     "backend-template",

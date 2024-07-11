@@ -12,9 +12,8 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 const CHOICES = fs.readdirSync(path.join(__dirname,'templates'));
-//console.log(CHOICES);
 
-console.log(chalk.blue.bold('Welcome to Mikasa Backend Template!'));
+console.log(chalk.blue.bold('Welcome to MDN Backend Template'));
 
 const CURR_DIR = process.cwd();
 const QUESTIONS = [
@@ -74,11 +73,8 @@ inquirer.prompt(QUESTIONS).then(answers => {
         }
     }
 
-    //console.log(template_path);
     const target_path = path.join(CURR_DIR, project_name);
     const actuall_template_path = path.join(__dirname , 'templates' , template_path);
-    //console.log(target_path);
-    //console.log(actuall_template_path);
     console.log(chalk.cyanBright(`in this project you will use :)-> ${language}`));
     console.log(chalk.cyanBright(`in this project you will use :)-> ${db}`));
     if(p){
