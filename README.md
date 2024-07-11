@@ -31,5 +31,9 @@ We welcome contributions! Feel free to fork the repository and submit pull reque
 ## VIDEO TUTORIAL
 Watch our video tutorial to see Nebula in action and learn how to get the most out of it.
 
+https://github.com/MohammedNayeemE/nebula/assets/127304665/b0e1c91f-8c7c-4b42-8717-8cb38f42803b
+
 ### Get Started Now 🚀
 Nebula simplifies the process of setting up your backend, allowing you to focus on building your application. Download and try Nebula today, and join our community of developers committed to making backend development easier and more efficient.
+
+
