@@ -19,7 +19,7 @@ npm i -D inquirer
 ```
 ## USAGE
 ```
-npx nebula-init
+npx mdn-init
 ```
 
 ## CONTRIBUTING
