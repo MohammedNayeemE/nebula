@@ -4,11 +4,11 @@ Nebula is a powerful tool designed to generate backend templates effortlessly. S
 ## FEATURES
 - **TEMPLATE OPTIONS**
   - *POSTGRESQL*
-    - javascript
-    - typescript
+    - Javascript
+    - Typescript
   - *MONGODB*
-    - javascript
-    - typescript
+    - Javascript
+    - Typescript
 
 ## INSTALLATION
 - To get started with Nebula , install the necessary packages
